@@ -1,0 +1,15 @@
+.circle-image {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Makes the image circular */
+    overflow: hidden; /* Clips the image to the circular shape */
+  }
+  
+  .rounded-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
